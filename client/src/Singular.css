@@ -1,0 +1,118 @@
+* {
+    font-family: var(--font-style);
+}
+.container-image img{
+    width: 100%;
+    height:250px;
+    object-fit: cover;
+    position: relative;
+    object-position: 0 0;
+}
+.container-image p { 
+    margin-top: 20px;
+    font-size: 0.6rem;
+    font-family: var(--font-style);
+    width: 95vw;
+    margin: auto;
+}
+.container-line{
+    width: 95vw;
+    height: 1px;
+    background-color: gray;
+    margin: auto;
+    margin-top: 20px;
+}
+.container-rental {
+    width: 95vw;
+    margin: auto;
+}
+.rental-header h1{ 
+    font-family: var(--font-style);
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rental-header p { 
+    font-family: var(--font-style);
+    font-weight: 300;
+    font-size: 0.65rem;
+}
+ .content-policy h1, .content-info h1{
+    font-weight: 500;
+    font-size: 0.65rem;
+    color: white;
+    margin-right: 20px;
+}
+.footer-header h1{
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+.footer-header h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.policy-header, .info-header{ 
+    width: 43vw;
+    background-color: #515252;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-line{ 
+    height:1px;
+    width: 30%;
+    background-color: white;
+}
+.policy-list{ 
+    width: 50vw;
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+}
+.list, .info-list h2{margin-bottom: 10px;}
+.list h2{ 
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+.list p { 
+    font-size: 0.6rem;
+    font-weight: 300;
+    font-style: italic;
+}
+.info-list h2{ 
+    font-weight: 400;
+    font-size: 0.5rem;
+}
+.footer-list{
+    display: flex;
+    justify-content:space-around;
+    width: 95vw;
+    padding-bottom: 10px;
+}
+.footer-list h3{
+    font-weight: 300;
+    font-size: 0.35rem;
+}
+@media screen and (min-width: 1024px) { 
+    .container-image img{ 
+        height: 300px;
+        object-position: 10% 10%;
+    }
+    .container-image p { 
+        margin-top: 20px;
+        font-size: 0.75rem;
+    }
+    .content-line{ 
+        width: 70%;
+    }
+    .footer-list h3{
+        font-size: 0.65rem;
+    }
+ }
+
